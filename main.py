@@ -9,11 +9,22 @@ print("Alo Mundo")
 nome = "Mateus Borges"
 idade = 21
 
-print(nome)
+print("Meu nome é: "+nome)
 print(idade)
 
 mesesvividos = idade*12
 diasvividos = mesesvividos*30
-print(mesesvividos)
-print(diasvividos)
+
+# Frase antes da variavel para a impressão de int
+# Python não converte
+
+#Converter com str()
+# Ou {} na variavel dentro das "" e "f" fora das ""
+# Ou {} e .format
+
+print(str(mesesvividos)+" meses")
+print(f"{diasvividos} dias")
+print("Minha idade é {}".format(idade))
+
+print("Meu nome é {} e minha idade é {} anos".format(nome,idade))
 
