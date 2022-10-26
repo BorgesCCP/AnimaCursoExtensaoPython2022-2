@@ -12,8 +12,8 @@ idade = 21
 print("Meu nome é: "+nome)
 print(idade)
 
-mesesvividos = idade*12
-diasvividos = mesesvividos*30
+mesesvividos = int(idade*12)
+diasvividos = int(mesesvividos*30)
 
 # Frase antes da variavel para a impressão de int
 # Python não converte
