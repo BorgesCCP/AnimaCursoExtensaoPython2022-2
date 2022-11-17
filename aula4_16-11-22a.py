@@ -25,3 +25,4 @@ for pessoa in pessoas:
 
 for pessoa in pessoas:
   print(f"nome real do(a) {pessoa[1]} é {pessoa[2]}")
+
